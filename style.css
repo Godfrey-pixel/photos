@@ -1,0 +1,74 @@
+/* Set default styles for body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c2bdbd;
+  }
+  
+  /* Common styles for container elements */
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.45); /* Adjusted opacity for better readability */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Common styles for headings and paragraphs */
+  h1, p {
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Styles for the image gallery */
+  .image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  /* Common styles for image links */
+  .image-gallery a {
+    flex: 0 1 calc(33.33% - 20px);
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Styles for images */
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 600px) {
+    .image-gallery a {
+      flex: 0 1 calc(50% - 10px);
+    }
+  }
+  
+  /* Styles for the footer */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  /* Styles for footer paragraphs */
+  .footer p {
+    margin: 0;
+  }
+  
+  /* Hover effect for images */
+  .image-gallery a:hover img {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+  }
+  
