@@ -51,6 +51,11 @@ body {
     .image-gallery a {
       flex: 0 1 calc(50% - 10px);
     }
+    .container {
+    
+        margin: 20px 15px;
+    }
+
   }
   
   /* Styles for the footer */
